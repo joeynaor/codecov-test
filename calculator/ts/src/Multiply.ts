@@ -1,10 +1,10 @@
-export default class Subtract {
+export default class Multiply {
 
     constructor() {
         console.log('Multiplication module');
     }
 
-    public subtract(firstNumber: number, secondNumber: number): number {
+    public multiply(firstNumber: number, secondNumber: number): number {
         return (firstNumber * secondNumber);
     }
 }
