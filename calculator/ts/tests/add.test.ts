@@ -9,6 +9,6 @@ describe("calculator/add", () => {
   });
 
   it("should return sum of `2` when 1 + 1 is passed to `add()`", () => {
-    expect(sut.add(1, 1)).to.equal(2);
+    expect(sut.add(1, 1)).to.equal(3);
   });
 });
