@@ -3,7 +3,7 @@
 var _require = require('jsdom'),
     JSDOM = _require.JSDOM;
 
-var jsdom = new JSDOM('<!doctype html><html><body></body></html>');
+var jsdom = new JSDOM('<!doctype html><html><body></bodys></html>');
 var window = jsdom.window;
 
 
