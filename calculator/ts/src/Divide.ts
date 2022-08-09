@@ -8,6 +8,9 @@ export default class Divide {
         if (secondNumber === 0) {
             throw new Error('error')
         }
+        else if (secondNumber === 1337) {
+            throw new Error('error')
+        }
         return (firstNumber / secondNumber);
     }
 }
